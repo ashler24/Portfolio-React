@@ -58,6 +58,10 @@ code {
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root{
   --purplecolor: #98acf8;
   --bluecolor: #0779e4;
@@ -83,6 +87,14 @@ code {
   bottom:2rem;
   right: 2rem;
   font-size:1rem;
+}
+
+#greetingSection{
+  margin-bottom:15rem;
+}
+
+#skillsSection{
+  margin-bottom:30rem;
 }
 
 

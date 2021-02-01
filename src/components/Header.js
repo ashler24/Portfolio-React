@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <div>
             <React.Fragment>
-                <Navbar light color="light" expand="md">
+                <Navbar light color="light" expand="md" id="navb">
                     <NavbarBrand>
                         <span>{'<'}</span>
                         <span className="logo-name">Abhijeet Pawar</span>
@@ -20,8 +20,13 @@ const Header = () => {
                     <Collapse isOpen={isNavOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink className="nav-link" to="/home">Home</NavLink>
+                                
+                                    <a href="#skillsSection" className="nav-link">Skills</a>
+                              
                             </NavItem>
+                            {/* <NavItem>
+                                <NavLink className="nav-link" to="/home">Home</NavLink>
+                            </NavItem> */}
                             <NavItem>
                                 <NavLink className="nav-link" to="/aboutme">About Me</NavLink>
                             </NavItem>

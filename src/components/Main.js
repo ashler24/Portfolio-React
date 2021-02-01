@@ -6,8 +6,9 @@ import {Switch, Route, Redirect} from 'react-router-dom';
 const Main = () => (
     <div>
         <Header />
+        <Home />
         <Switch>
-            <Route path="/home" component={Home}></Route>
+            {/* <Route path="/home" component={Home}></Route> */}
             <Redirect to="/home" />
         </Switch>
     </div>
