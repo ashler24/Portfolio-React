@@ -1,0 +1,43 @@
+.greeting {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  /* margin: 1rem; */
+  /* padding: 1rem 0 1rem 1rem; */
+}
+
+.greeting > * {
+    flex: 1;
+    /* margin: 1rem; */
+    padding: 0.5rem;
+}
+
+
+.greeting-text-p {
+  font-size: 30px;
+  line-height: 40px;
+  color: #868e96;
+}
+
+
+#profileImg{
+    width:12rem;
+    height:12rem;
+    border-radius: 50%;
+    box-shadow: 0 7px 10px rgba(0,0,0,0.5);
+}
+
+#greetingBtns > .btn {
+    font-size: 1.1rem;
+    box-shadow: 4px 4px 0 blue;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#greetingBtns > .btn:hover{
+    box-shadow: 2px 2px 0 blue;
+    background-color:#ffffff;
+    color:rgb(11, 55, 248);
+    transform: translateY(-3px);
+}

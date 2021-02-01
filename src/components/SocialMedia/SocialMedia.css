@@ -1,0 +1,26 @@
+.socialMedia > div > a {
+  font-size: 2.5rem;
+}
+
+.socialMedia > div > a > svg {
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); */
+  /* background:transparent; */
+  margin: 1rem;
+  transition: all 0.4s ease-in-out 0.1s;
+}
+
+.socialMedia > div > a > svg:hover {
+  transform: rotate(360deg) scale(1.1);
+}
+
+#github {
+  color: #000000;
+}
+
+#linkedin {
+  color: rgb(0, 110, 255);
+}
+
+#twitter {
+  color: skyblue;
+}

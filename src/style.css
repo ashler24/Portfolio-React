@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Open+Sans:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,700;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-name{
+    font-family: 'Homemade Apple', cursive;
+}
