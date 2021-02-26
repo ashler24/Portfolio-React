@@ -24,3 +24,9 @@
 #twitter {
   color: skyblue;
 }
+
+@media (max-width: 584px) {
+  .socialMedia > div > a {
+    font-size: 1.8rem;
+  }
+}
