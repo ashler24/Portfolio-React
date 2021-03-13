@@ -68,6 +68,7 @@ html {
 }
 
 .logo-name {
+  font-size: 2rem;
   font-family: "Homemade Apple", cursive;
   color: var(--bluecolor);
 }
@@ -101,19 +102,43 @@ html {
 }
 
 #greetingSection {
-  margin-bottom: 15rem;
+  /* background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%); */
+  background: #102754;
+  color: #ffffff;
+  transform: skewY(-2deg);
+  margin: 4rem 0;
+  padding: 3rem 0;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
 }
+
+/* #greetingSection {
+  margin-bottom: 15rem;
+} */
 
 #skillsSection {
   margin: 0 0 10rem 0;
 }
 
 @media only screen and (max-width: 584px) {
+  .logo-name {
+    font-size: 1rem;
+  }
+
   #topButton {
     bottom: 1rem;
     right: 1rem;
     width: 2.5rem;
     height: 2.5rem;
     font-size: 2rem;
+  }
+
+  #greetingSection {
+    /* background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%); */
+    background: #102754;
+    color: #ffffff;
+    transform: skewY(-2deg);
+    margin: 1rem 0;
+    padding: 3rem 0;
+    box-shadow: 0 8px 10px rgab(0, 0, 0, 0.2);
   }
 }

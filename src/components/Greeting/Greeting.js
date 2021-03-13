@@ -3,6 +3,10 @@ import SocialMedia from "../SocialMedia/SocialMedia";
 import "./Greeting.css";
 import profilepic from "./profilepic.jpg";
 
+const myName = {
+  color: "#DB1B4B"
+};
+
 const Greeting = () => {
   return (
     <div>
@@ -10,7 +14,8 @@ const Greeting = () => {
         <div>
           <div className="container-sm">
             <h3>
-              Hi all, I'm Abhijeet <span aria-hidden="true">👋</span>
+              Hi all, I'm <span style={myName}>Abhijeet</span>{" "}
+              <span aria-hidden="true">👋</span>
             </h3>
             <p className="greeting-text-p">
               A passionate Full Stack Software Developer{" "}

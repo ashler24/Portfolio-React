@@ -14,12 +14,31 @@
 #skilldivicons {
   display: flex;
   flex-direction: row;
+  padding: 1rem 3rem;
+  background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
+  border-radius: 14px;
+  box-shadow: 0 8px 12px rgb(255, 117, 140, 0.7);
 }
 
 #skilldivicons > * {
-  flex: 1;
+  flex: 1 1 auto;
   font-size: 2.5rem;
   padding: 1rem;
+}
+
+.socialMedia {
+  background: rgba(255, 255, 255, 0.9);
+  /* background: rgba(255,255,255,0.1); */
+  /* backdrop-filter: blur(10px); */
+  /* background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%); */
+  /* background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%); */
+  /* background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%); */
+  /* background-image: linear-gradient(
+120deg
+, #fdfbfb 0%, #ebedee 100%); */
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgb(0 0 0 / 20%);
+  margin: 1rem;
 }
 
 @media only screen and (max-width: 584px) {
@@ -28,9 +47,9 @@
   }
 }
 
-@media only screen and (max-width: 786px) and (min-width:584px){
-  #skills{
-      width:70%;
+@media only screen and (max-width: 786px) and (min-width: 584px) {
+  #skills {
+    width: 70%;
   }
 }
 

@@ -6,9 +6,7 @@ import "./App.css";
 function App() {
   return (
     <Router>
-      <div>
-        <Main />
-      </div>
+      <Main />
     </Router>
   );
 }
