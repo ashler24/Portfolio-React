@@ -13,9 +13,14 @@ const Greeting = () => {
       <div className="greeting">
         <div>
           <div className="container-sm">
-            <h3>
-              Hi all, I'm <span style={myName}>Abhijeet</span>{" "}
-              <span aria-hidden="true">👋</span>
+            <h3 className="name-intro">
+              Hi all, I'm{" "}
+              <span style={myName} className="my-name">
+                Abhijeet
+              </span>{" "}
+              <span aria-hidden="true" className="hand">
+                👋
+              </span>
             </h3>
             <p className="greeting-text-p">
               A passionate Full Stack Software Developer{" "}

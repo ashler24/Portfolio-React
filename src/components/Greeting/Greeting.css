@@ -9,6 +9,12 @@
   /* padding: 1rem 0 1rem 1rem; */
 }
 
+.name-intro {
+  font-size: 3rem;
+  margin: 0.2rem 0;
+  padding: 1rem 0;
+}
+
 .greeting > * {
   flex: 1 1 auto;
   /* margin: 1rem; */
@@ -16,7 +22,7 @@
 }
 
 .greeting-text-p {
-  font-size: 30px;
+  font-size: 24px;
   line-height: 40px;
 }
 
@@ -33,17 +39,30 @@
     transform: skewY(2deg);
   }
 
+  .name-intro {
+    font-size: 1.8rem;
+    margin: 0.2rem 0;
+    padding: 1rem 0;
+  }
+
   .greeting-text-p {
     font-size: 15px;
     line-height: 20px;
   }
 
   #greetingBtns > .btn {
-    font-size: 0.6rem !important;
+    font-size: 0.8rem !important;
     width: 120px;
     background: #db1b4b;
     box-shadow: 3px 3px 0 #ffffff;
     transition: all 0.3s ease-in-out 0s;
+  }
+
+  #greetingBtns > .btn:active {
+    box-shadow: 2px 2px 0 blue !important;
+    background-color: #ffffff !important;
+    color: rgb(11, 55, 248) !important;
+    transform: translateY(-3px) !important;
   }
 }
 
@@ -67,3 +86,32 @@
   color: rgb(11, 55, 248);
   transform: translateY(-3px);
 }
+
+.my-name {
+  position: relative;
+}
+
+.my-name::before {
+  content: "";
+  height: 8px;
+  width: 100%;
+  position: absolute;
+  background: #ffffff;
+  opacity: 0.9;
+  bottom: 0;
+  transform: translateY(-5deg);
+  z-index: -1;
+}
+
+/* .hand {
+  animation: hand-wave infinite 20s linear;
+}
+
+@keyframes hand-wave {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

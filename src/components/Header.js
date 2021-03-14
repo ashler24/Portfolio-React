@@ -1,13 +1,7 @@
 import React, { useState } from "react";
-import {
-  Nav,
-  Navbar,
-  NavbarBrand,
-  NavbarToggler,
-  Collapse,
-  NavItem
-} from "reactstrap";
+import { Nav, Navbar, NavbarBrand, Collapse, NavItem } from "reactstrap";
 import { NavLink } from "react-router-dom";
+import Hamburger from "./HamburgerButton/Hamburger";
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -22,7 +16,10 @@ const Header = () => {
             <span className="logo-name">Abhijeet Pawar</span>
             <span>{"/>"}</span>
           </NavbarBrand>
-          <NavbarToggler onClick={toggleNav} className="navToggler" />
+          {/* <NavbarToggler onClick={toggleNav} className="navToggler" /> */}
+          <Hamburger isNavOpen={isNavOpen} toggleNav={toggleNav} />
+          {/* <Hamburger onClick={toggleNav} className="navToggler"/> */}
+
           <Collapse isOpen={isNavOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>

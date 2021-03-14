@@ -10,7 +10,7 @@
 }
 
 .socialMedia > div > a > svg:hover {
-  transform: rotate(360deg) scale(1.1);
+  transform: rotate(360deg) scale(1.5);
 }
 
 #github {
@@ -26,7 +26,23 @@
 }
 
 @media (max-width: 584px) {
+  .socialMedia {
+    width: 300px;
+    line-height: 1.5rem;
+  }
+
+  .socialMedia > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
   .socialMedia > div > a {
     font-size: 1.8rem;
+  }
+
+  .socialMedia > div > a > svg {
+    margin: 0.5rem;
   }
 }
