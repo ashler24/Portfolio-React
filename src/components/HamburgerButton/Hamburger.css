@@ -17,7 +17,7 @@
 .hambuger-menu-inner:before,
 .hambuger-menu-inner:after {
   position: absolute;
-  height: 0.1rem;
+  height: 0.01rem;
   background-color: #000000;
   display: block;
 }
