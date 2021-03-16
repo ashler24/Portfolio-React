@@ -1,12 +1,16 @@
 .greeting {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap-reverse;
+  /* flex-wrap: wrap-reverse; */
   align-items: center;
   justify-content: center;
   transform: skewY(2deg);
   /* margin: 1rem; */
   /* padding: 1rem 0 1rem 1rem; */
+}
+
+.profile-pic-wrapper {
+  text-align: center;
 }
 
 .name-intro {
@@ -34,7 +38,17 @@
     box-shadow: 0 10px 50px rgba(0, 0, 0, 0.4);
   }
 
+  .my-name {
+    font-size: 1.9rem !important;
+  }
+
+  .my-name::before {
+    height: 22px !important;
+  }
+
   .greeting {
+    flex-wrap: wrap-reverse;
+
     /* transform: skew(-10deg) rotate(2deg); */
     transform: skewY(2deg);
   }
@@ -88,19 +102,21 @@
 }
 
 .my-name {
+  font-size: 3rem;
   position: relative;
 }
 
 .my-name::before {
   content: "";
-  height: 8px;
+  height: 35px;
   width: 100%;
   position: absolute;
   background: #ffffff;
   opacity: 0.9;
   bottom: 0;
-  transform: translateY(-5deg);
+  transform: translateY(-1px);
   z-index: -1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* .hand {

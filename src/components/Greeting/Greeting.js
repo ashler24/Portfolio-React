@@ -41,7 +41,7 @@ const Greeting = () => {
           </div>
         </div>
         <div>
-          <div className="container-sm d-flex align-items-center justify-content-center m-1">
+          <div className="container-sm profile-pic-wrapper">
             <img
               src={profilepic}
               alt="profilepic"
