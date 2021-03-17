@@ -15,15 +15,23 @@
   display: flex;
   flex-direction: row;
   padding: 1rem 3rem;
-  background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
+  /* background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%); */
+  background: #ffffff;
+  color: #440a67;
   border-radius: 14px;
-  box-shadow: 0 8px 12px rgb(255, 117, 140, 0.7);
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.2);
+  /* box-shadow: 0 8px 12px rgb(255, 117, 140, 0.7); */
 }
 
 #skilldivicons > * {
   flex: 1 1 auto;
   font-size: 2.5rem;
   padding: 1rem;
+}
+
+.progress-bar {
+  background: #440a67 !important;
+  opacity: 0.8;
 }
 
 .skill-level-wrapper {
@@ -50,18 +58,18 @@
 }
 
 .skill-level-header .js {
-  background: #f3cf3e;
-  color: #000000;
+  /* background: #f3cf3e; */
+  color: #440a67;
 }
 
 .skill-level-header .node-js {
-  background: #03c03c;
-  color: #000000;
+  /* background: #03c03c; */
+  color: #440a67;
 }
 
 .skill-level-header .react-js {
-  background: #00ffff;
-  color: #000000;
+  /* background: #00ffff; */
+  color: #440a67;
 }
 
 .skill-level-names {

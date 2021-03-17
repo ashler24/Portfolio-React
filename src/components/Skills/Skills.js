@@ -85,13 +85,16 @@ const Skills = () => {
       <Container className="skill-level-wrapper">
         <Toast className="skill-level-header">
           <ToastHeader className="js">
-            <span>
-              <SiJavascript />
-            </span>
+            <div className="skill-level-icons">
+              <span>
+                <SiJavascript />
+              </span>
+            </div>
+
             <div className="skill-level-names">Javascript</div>
           </ToastHeader>
           <ToastBody>
-            <Progress animated color="warning" value="75" />
+            <Progress value="75" />
           </ToastBody>
         </Toast>
         <Toast className="skill-level-header">
@@ -102,7 +105,7 @@ const Skills = () => {
             <div className="skill-level-names">Node JS</div>
           </ToastHeader>
           <ToastBody>
-            <Progress animated color="success" value="55" />
+            <Progress value="55" />
           </ToastBody>
         </Toast>
         <Toast className="skill-level-header">
@@ -113,7 +116,7 @@ const Skills = () => {
             <div className="skill-level-names">React JS</div>
           </ToastHeader>
           <ToastBody>
-            <Progress animated color="info" value="70" />
+            <Progress value="70" />
           </ToastBody>
         </Toast>
       </Container>

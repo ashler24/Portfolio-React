@@ -2,6 +2,7 @@ import React from "react";
 import SocialMedia from "../SocialMedia/SocialMedia";
 import "./Greeting.css";
 import profilepic from "./profilepic.jpg";
+import portfolioimg from "./portfolioimg.svg";
 
 const myName = {
   color: "#DB1B4B"
@@ -35,15 +36,15 @@ const Greeting = () => {
               className="d-flex flex-row justify-content-start flex-wrap"
               id="greetingBtns"
             >
-              <button className="btn btn-primary m-1 mr-5">Contact Me</button>
-              <button className="btn btn-primary m-1">See Resume</button>
+              <button className="btn m-1 mr-5">Contact Me</button>
+              <button className="btn m-1">See Resume</button>
             </div>
           </div>
         </div>
         <div>
           <div className="container-sm profile-pic-wrapper">
             <img
-              src={profilepic}
+              src={portfolioimg}
               alt="profilepic"
               id="profileImg"
               className="lazy"

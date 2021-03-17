@@ -63,14 +63,20 @@ html {
 }
 
 :root {
-  --purplecolor: #98acf8;
+  --powderblue: #caf0f8;
+  --purplecolor: #440a67;
   --bluecolor: #0779e4;
+}
+
+body {
+  background-color: #faf4ff;
+  /* background-color:var(--powderblue); */
 }
 
 .logo-name {
   font-size: 1.3rem;
   font-family: "Homemade Apple", cursive;
-  color: var(--bluecolor);
+  color: #440a67;
 }
 
 .navToggler {
@@ -89,6 +95,9 @@ html {
   width: 3rem;
   height: 3rem;
   font-size: 3rem;
+  color: #ffffff;
+  background: #440a67;
+  border: none;
   border-radius: 50%;
   display: flex;
   flex-flow: row;
@@ -103,7 +112,9 @@ html {
 
 #greetingSection {
   /* background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%); */
-  background: #102754;
+  /* background: #102754; */
+  background-color: #440a67;
+
   color: #ffffff;
   transform: skewY(-2deg);
   margin: 4rem 0;
@@ -134,7 +145,6 @@ html {
 
   #greetingSection {
     /* background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%); */
-    background: #102754;
     color: #ffffff;
     transform: skewY(-2deg);
     margin: 1rem 0;

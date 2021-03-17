@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineArrowUp } from "react-icons/ai";
 import Greeting from "./Greeting/Greeting";
+import ScrollToTop from "./ScrollToTop/ScrollToTop";
 import Skills from "./Skills/Skills";
 
 const Home = () => {
@@ -16,7 +17,7 @@ const Home = () => {
           <Skills />
         </div>
       </section>
-      <a
+      {/* <a
         href="#navb"
         id="topButton"
         className="btn btn-primary"
@@ -24,7 +25,8 @@ const Home = () => {
         style={{ visibility: "visible" }}
       >
         <AiOutlineArrowUp />
-      </a>
+      </a> */}
+      <ScrollToTop />
     </div>
   );
 };
