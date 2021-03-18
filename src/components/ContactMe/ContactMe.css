@@ -1,0 +1,77 @@
+h3.contact-me-title {
+  text-align: center;
+  color: #ffffff;
+  margin: 1rem;
+  padding: 2rem;
+  font-size: 3.5rem;
+}
+
+#contactMe #github,
+#contactMe #linkedin,
+#contactMe #twitter {
+  color: #ffffff;
+  border-radius: 50%;
+}
+
+#contactMe #github {
+  background: #ff5722;
+}
+
+#contactMe #linkedin {
+  background: #039be5;
+}
+
+#contactMe #twitter {
+  background: #64b5f6;
+}
+
+#contactMe .socialMedia {
+  /* background: rgba(255, 255, 255, 0.9); */
+  width: 30rem;
+  background: #000000;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgb(0 0 0 / 20%);
+  margin: auto;
+}
+
+#contactMe .socialMedia > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#contactMe .socialMedia > div > a > svg {
+  margin: 1rem;
+  transition: all 0.2s ease-in-out 0.1s;
+}
+
+#contactMe .socialMedia > div > a > svg:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+h5.footer-tag-line {
+  margin: 5rem 0;
+  text-align: center;
+  color: #bdbdbd;
+}
+
+@media only screen and (max-width: 670px) {
+  h3.contact-me-title {
+    padding: 1.5rem;
+    font-size: 2rem;
+  }
+
+  #contactMe .socialMedia {
+    width: 15rem;
+    background: #000000;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgb(0 0 0 / 20%);
+    margin: auto;
+  }
+
+  #contactMe .socialMedia > div > a > svg {
+    margin: 0.4rem;
+    transition: none;
+  }
+}

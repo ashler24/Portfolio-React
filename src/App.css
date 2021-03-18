@@ -69,7 +69,8 @@ html {
 }
 
 body {
-  background-color: #faf4ff;
+  background-color: #f8f8f8;
+  /* background-color: #faf4ff; */
   /* background-color:var(--powderblue); */
 }
 
@@ -113,9 +114,10 @@ body {
 #greetingSection {
   /* background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%); */
   /* background: #102754; */
-  background-color: #440a67;
+  /* background-color: #440a67; */
 
-  color: #ffffff;
+  /* color: #440a67; */
+  color: #000000;
   transform: skewY(-2deg);
   margin: 4rem 0;
   padding: 3rem 0;
@@ -128,6 +130,11 @@ body {
 
 #skillsSection {
   margin: 0 0 10rem 0;
+}
+
+#contactMeSection {
+  background: #000000;
+  height: 25rem;
 }
 
 @media only screen and (max-width: 584px) {
@@ -145,7 +152,7 @@ body {
 
   #greetingSection {
     /* background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%); */
-    color: #ffffff;
+    color: #000000;
     transform: skewY(-2deg);
     margin: 1rem 0;
     padding: 3rem 0;

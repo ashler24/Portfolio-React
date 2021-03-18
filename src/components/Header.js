@@ -27,9 +27,7 @@ const Header = () => {
                   Skills
                 </a>
               </NavItem>
-              {/* <NavItem>
-                                <NavLink className="nav-link" to="/home">Home</NavLink>
-                            </NavItem> */}
+
               <NavItem>
                 <NavLink className="nav-link" to="/aboutme">
                   About Me
@@ -37,9 +35,9 @@ const Header = () => {
               </NavItem>
 
               <NavItem>
-                <NavLink className="nav-link" to="/contactme">
+                <a href="#contactMeSection" className="nav-link">
                   Contact Me
-                </NavLink>
+                </a>
               </NavItem>
             </Nav>
           </Collapse>
